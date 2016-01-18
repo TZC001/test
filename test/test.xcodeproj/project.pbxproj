@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCF1B7971C4CFA33002BCC0B /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF1B7961C4CFA33002BCC0B /* test2.m */; };
 		BCF4320F1C4CEA7D0016E8FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4320E1C4CEA7D0016E8FA /* main.m */; };
 		BCF432121C4CEA7D0016E8FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF432111C4CEA7D0016E8FA /* AppDelegate.m */; };
 		BCF432151C4CEA7D0016E8FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF432141C4CEA7D0016E8FA /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCF1B7951C4CFA33002BCC0B /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		BCF1B7961C4CFA33002BCC0B /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 		BCF4320A1C4CEA7D0016E8FA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF4320E1C4CEA7D0016E8FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCF432101C4CEA7D0016E8FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,13 +109,15 @@
 			children = (
 				BCF432401C4CEB100016E8FA /* test1.h */,
 				BCF432411C4CEB100016E8FA /* test1.m */,
+				BCF1B7951C4CFA33002BCC0B /* test2.h */,
+				BCF1B7961C4CFA33002BCC0B /* test2.m */,
+				BCF4321B1C4CEA7D0016E8FA /* LaunchScreen.storyboard */,
 				BCF432101C4CEA7D0016E8FA /* AppDelegate.h */,
 				BCF432111C4CEA7D0016E8FA /* AppDelegate.m */,
 				BCF432131C4CEA7D0016E8FA /* ViewController.h */,
 				BCF432141C4CEA7D0016E8FA /* ViewController.m */,
 				BCF432161C4CEA7D0016E8FA /* Main.storyboard */,
 				BCF432191C4CEA7D0016E8FA /* Assets.xcassets */,
-				BCF4321B1C4CEA7D0016E8FA /* LaunchScreen.storyboard */,
 				BCF4321E1C4CEA7D0016E8FA /* Info.plist */,
 				BCF4320D1C4CEA7D0016E8FA /* Supporting Files */,
 			);
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF1B7971C4CFA33002BCC0B /* test2.m in Sources */,
 				BCF432151C4CEA7D0016E8FA /* ViewController.m in Sources */,
 				BCF432121C4CEA7D0016E8FA /* AppDelegate.m in Sources */,
 				BCF4320F1C4CEA7D0016E8FA /* main.m in Sources */,
@@ -504,6 +510,7 @@
 				BCF432391C4CEA7D0016E8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF4323A1C4CEA7D0016E8FA /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				BCF4323C1C4CEA7D0016E8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF4323D1C4CEA7D0016E8FA /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				BCF4323F1C4CEA7D0016E8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
