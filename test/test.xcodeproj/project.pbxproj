@@ -15,6 +15,7 @@
 		BCF4321D1C4CEA7D0016E8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF4321B1C4CEA7D0016E8FA /* LaunchScreen.storyboard */; };
 		BCF432281C4CEA7D0016E8FA /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF432271C4CEA7D0016E8FA /* testTests.m */; };
 		BCF432331C4CEA7D0016E8FA /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF432321C4CEA7D0016E8FA /* testUITests.m */; };
+		BCF432421C4CEB100016E8FA /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF432411C4CEB100016E8FA /* test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BCF4322E1C4CEA7D0016E8FA /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF432321C4CEA7D0016E8FA /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		BCF432341C4CEA7D0016E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF432401C4CEB100016E8FA /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		BCF432411C4CEB100016E8FA /* test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		BCF4320C1C4CEA7D0016E8FA /* test */ = {
 			isa = PBXGroup;
 			children = (
+				BCF432401C4CEB100016E8FA /* test1.h */,
+				BCF432411C4CEB100016E8FA /* test1.m */,
 				BCF432101C4CEA7D0016E8FA /* AppDelegate.h */,
 				BCF432111C4CEA7D0016E8FA /* AppDelegate.m */,
 				BCF432131C4CEA7D0016E8FA /* ViewController.h */,
@@ -273,6 +278,7 @@
 				BCF432151C4CEA7D0016E8FA /* ViewController.m in Sources */,
 				BCF432121C4CEA7D0016E8FA /* AppDelegate.m in Sources */,
 				BCF4320F1C4CEA7D0016E8FA /* main.m in Sources */,
+				BCF432421C4CEB100016E8FA /* test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
